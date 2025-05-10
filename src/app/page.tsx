@@ -10,9 +10,9 @@ export default function Home() {
         <div className="flex flex-row items-center justify-between gap-4">
           <h1 className="text-lg w-max">I&nbsp;SCREAM&nbsp;U&nbsp;SCREAM</h1>
 
-          <div className="flex items-center border-2 border-black p-0 rounded-base w-full xlg:w-3/5 gap-2 bg-white">
-            <SearchIcon className="h-8 w-8" />
-            <Input className="w-full border-0" type="text" />
+          <div className="relative w-full">
+            <SearchIcon className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-500" />
+            <Input className="w-full pl-10" type="text" placeholder="Search..." />
           </div>
 
           <Button variant="neutral">Login</Button>
