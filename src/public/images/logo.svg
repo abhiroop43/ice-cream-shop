@@ -1,0 +1,16 @@
+<svg width="300" height="110" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="oklch(92.13% .0388 282.36)"/>
+  <!-- Ice Cream Icon -->
+  <g transform="translate(10,10)">
+    <circle cx="30" cy="30" r="25" fill="#ff5c5c" stroke="black" stroke-width="3"/>
+    <polygon points="15,55 45,55 30,90" fill="#f4c430" stroke="black" stroke-width="3"/>
+  </g>
+
+  <!-- Text -->
+  <text x="100" y="40" font-family="Space Grotesk" font-size="35" font-weight="bold" fill="black">
+    I SCREAM
+  </text>
+  <text x="100" y="75" font-family="Space Grotesk" font-size="35" font-weight="bold" fill="black">
+    U SCREAM
+  </text>
+</svg>
